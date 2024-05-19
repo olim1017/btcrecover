@@ -1,6 +1,6 @@
 sphinx==1.7.0
-requests>=2.20.0
-fastecdsa>=1.7.1
+requests>=2.31.0
+fastecdsa>=2.3.2
 pyaes==1.6.1
 scrypt>=0.8.13
 SQLAlchemy>=1.2.12
@@ -11,3 +11,7 @@ mysql-connector
 mysqlclient
 parameterized
 sphinx_rtd_theme
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
